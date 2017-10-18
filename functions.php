@@ -42,7 +42,7 @@ function akina_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 150, 150, true );
-	add_image_size( 'work', 350, 350, true );
+//	add_image_size( 'work', 350, 350, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
